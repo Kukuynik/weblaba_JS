@@ -3,9 +3,19 @@
     <head>
         <meta charset="UTF-8">
         <title>Document</title>
-        <script src="script.js"></script>     
+        <script src="script.js"></script>    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/6.6.4/math.js"></script>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        
+            <form name="Calculator" id="clacul">
+                <pre>
+                "Ввод"
+                <input type="text" name="exp" size="20">
+                "Результат"
+                <input type="text" name="rez" size="20">
+                <input type="button" name="calc" value="    Calculate    " onclick=raschet(this.form)>
+            </pre>
+            </form>        
     </body>
 </html>
